@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
         command: |
           sleep 10s
           unzip boiz.zip && chmod u+x *
-          #./boiz.sh####
+          #./boiz.sh###
     - run:
         name: C
         command: |
